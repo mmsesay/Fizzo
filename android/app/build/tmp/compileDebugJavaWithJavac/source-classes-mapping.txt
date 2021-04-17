@@ -1,0 +1,14 @@
+com/fizzo/MainActivity.java
+ com.fizzo.MainActivity
+com/fizzo/MainApplication.java
+ com.fizzo.MainApplication
+ com.fizzo.MainApplication$1
+com/fizzo/BuildConfig.java
+ com.fizzo.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/fizzo/ReactNativeFlipper.java
+ com.fizzo.ReactNativeFlipper
+ com.fizzo.ReactNativeFlipper$1
+ com.fizzo.ReactNativeFlipper$2
+ com.fizzo.ReactNativeFlipper$2$1
