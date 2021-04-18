@@ -1,12 +1,10 @@
 import 'react-native-gesture-handler';
 import React from 'react';
-import { createStackNavigator } from '@react-navigation/stack';
-import { NavigationContainer } from '@react-navigation/native';
-import HomeScreen from './screens/HomeScreen';
-import DetailScreen from './screens/DetailScreen';
-import Navigation from './routes/MyStack';
+import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
+import HomeScreen from './screen/HomeScreen';
+import DetailScreen from './screen/DetailScreen';
 
-// create the stack instance
 const Stack = createStackNavigator();
 
 const App = () => {
@@ -16,7 +14,7 @@ const App = () => {
         <Stack.Screen
           name="Home"
           component={HomeScreen}
-          options={{ title: 'Welcome' }}
+          options={{title: 'Fizzo'}}
         />
         <Stack.Screen name="Detail" component={DetailScreen} />
       </Stack.Navigator>
@@ -24,4 +22,4 @@ const App = () => {
   );
 };
 
-export default App
+export default App;
