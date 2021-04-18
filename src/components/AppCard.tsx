@@ -4,12 +4,12 @@ import {
   Image, StyleSheet, Text, View, ScrollView
 } from "react-native";
 
-const AppCard = ({ article, navigation }) => {
+const AppCard = ({ article }) => {
 
   const getItem = (item) => {
     // Function for click on an item
     console.log(item);
-    navigation.navigate('Detail', { name: 'Jane' })
+    // navigation.navigate('Detail', { name: 'Jane' })
   };
 
   return (
